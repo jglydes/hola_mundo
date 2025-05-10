@@ -1,0 +1,7 @@
+name: SolBetX
+preferred_languages: en
+project_url: https://solbetx.com/
+contact: office@vtscc.org
+contact: https://vtscc.org/contact.html
+source_code: https://github.com/Vermont-Secure-Computing/bitbet
+auditors: vtscc.org
