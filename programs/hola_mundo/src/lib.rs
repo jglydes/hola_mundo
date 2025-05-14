@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("Eg9n2jQm57XDTyhESDzbXp96CunY5SFirmNovq49UBxr");
+declare_id!("EkrwchyoN347S3jgCTnVjVnMayqXyFgsZQzdSJDcVbuZ");
 
 #[program]
 pub mod hola_mundo {
@@ -28,7 +28,7 @@ security_txt! {
     // Optional Fields
     preferred_languages: "en",
     source_code: "https://github.com/Vermont-Secure-Computing/bitbet",
-    source_revision: "Eg9n2jQm57XDTyhESDzbXp96CunY5SFirmNovq49UBxr",
+    source_revision: "EkrwchyoN347S3jgCTnVjVnMayqXyFgsZQzdSJDcVbuZ",
     source_release: "",
     encryption: "",
     auditors: "vtscc.org",

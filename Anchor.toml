@@ -4,15 +4,15 @@
 resolution = true
 skip-lint = false
 
-[programs.devnet]
-hola_mundo = "Eg9n2jQm57XDTyhESDzbXp96CunY5SFirmNovq49UBxr"
+[programs.mainnet]
+hola_mundo = "EkrwchyoN347S3jgCTnVjVnMayqXyFgsZQzdSJDcVbuZ"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "https://api.devnet.solana.com"
-wallet = "./world-keypair.json"
+cluster = "https://api.mainnet-beta.solana.com"
+wallet = "/home/jong/.config/solana/hola-keypair.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

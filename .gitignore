@@ -1,7 +1,10 @@
 .anchor
 .DS_Store
+migrations
 target
+tests
 **/*.rs.bk
 node_modules
 test-ledger
 .yarn
+*-keypair.json
